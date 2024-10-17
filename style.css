@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+/* font-family: "Oswald", sans-serif; */
+/* font-family: "Montserrat", sans-serif; */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2E323F;
+    padding: 14px;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-right: 32px;
+}
+li{
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.125rem;
+}
+.sign > button{
+    font-size: 1.12rem;
+    font-family: "Oswald", sans-serif;
+    border-radius: 15px;
+    padding: 2px 17px;
+    background-color: #A59678;
+}
+.sign>a{
+    /* font-size: 1.12rem;
+    font-family: "Oswald", sans-serif; */
+    text-decoration: none;
+    text-decoration-color: nonw;
+    color: inherit;
+}
+
+
+
+.hero{
+    display: flex;
+    background-color: #3B4050;
+    align-items: center;
+    /* text-align: center; */
+    /* padding: 10px; */
+    padding-left: 65px;
+    /* padding-right: 71px;*/
+}
+h1{
+    font-family: "Oswald", sans-serif; 
+    font-size: 5.625rem;
+}
+.white{
+    color: white;
+}
+.gold{
+    color: #A59678;
+}
+p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+}
+.title{
+    line-height: 86px;
+    margin: 24px;
+}
+
+.pass{
+    margin: 10px;
+    text-align: center;
+}
+
+.pass > button{
+    font-size: 1.12rem;
+    font-family: "Oswald", sans-serif;
+    border-radius: 15px;
+    padding: 2px 17px;
+    background-color: #A59678;
+}
+.pass>button>a{
+    text-decoration: none;
+    text-decoration-color: none ;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
