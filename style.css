@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
 }
+
 header{
     display: flex;
     justify-content: space-between;
@@ -35,7 +36,7 @@ li{
     padding: 2px 17px;
     background-color: #A59678;
 }
-.sign>a{
+.sign a{
     /* font-size: 1.12rem;
     font-family: "Oswald", sans-serif; */
     text-decoration: none;
@@ -43,24 +44,23 @@ li{
     color: inherit;
 }
 
-
+main{
+    width: 100%;
+}
 
 .hero{
     display: flex;
-    background-color: #3B4050;
     align-items: center;
-    /* text-align: center; */
-    /* padding: 10px; */
-    padding-left: 65px;
-    /* padding-right: 71px;*/
+    padding: 40px;
+    background-color: #3B4050;
+    padding-bottom: 126px;
 }
 h1{
     font-family: "Oswald", sans-serif; 
     font-size: 5.625rem;
-}
-.white{
     color: white;
 }
+
 .gold{
     color: #A59678;
 }
@@ -75,7 +75,7 @@ p{
 
 .pass{
     margin: 10px;
-    text-align: center;
+    
 }
 
 .pass > button{
@@ -84,6 +84,8 @@ p{
     border-radius: 15px;
     padding: 2px 17px;
     background-color: #A59678;
+    border-color: transparent;
+    margin-top: 22px;
 }
 .pass>button>a{
     text-decoration: none;
@@ -91,4 +93,122 @@ p{
     color: white;
     text-transform: uppercase;
     font-size: 1.5rem;
+}
+
+
+.sectwo{
+    display: flex;
+    margin: 141px 54px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-family: "Oswald", sans-serif;
+    font-size: 1.875rem;
+    color: #A59678;
+}
+
+.one p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.125rem;
+}
+
+.secthree{
+    display: flex;
+    margin: 141px 54px;
+    /* justify-content: center;
+    align-items: center; */
+}
+img{
+    min-width: 100%;
+}
+.two-1{
+    margin-right: 77px;
+}
+
+.two-1 h2{
+    font-family: "Oswald", sans-serif;
+    font-size: 2.25rem;
+    color: #A59678;
+}
+.two-1 p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.313rem;
+}
+
+.two-2{
+    text-align: center;
+    color: white;
+}
+
+.two-2 h2{
+    font-family: "Oswald", sans-serif;
+    font-size: 1.875rem;
+    color: white;
+}
+.two-2 p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.125rem;
+}
+.two-2-1{
+    margin-bottom: 32px;
+    padding: 22px;
+    background-color:#2E323F;
+}
+footer {
+    background-color: #3a3a4f;
+    color: #fff;
+    padding: 40px 20px;
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: start;
+}
+.flex{
+    display: flex;
+}
+
+
+footer div {
+    flex: 1;
+    padding: 0 15px;
+}
+
+footer h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    color: #b9a86c;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.foot {
+    list-style-type: none;
+    padding: 0;
+    flex-direction: column;
+}
+
+.foot li {
+    margin: 8px 0;
+}
+
+.foot li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.foot li a:hover {
+    color: #fff;
 }
