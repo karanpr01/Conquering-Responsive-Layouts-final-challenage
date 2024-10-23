@@ -155,6 +155,8 @@ footer ul li {
 @media(min-width:1000px){
     .flex-hero{
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .flex-hero h1{
         font-size: 5.625rem;
