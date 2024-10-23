@@ -9,206 +9,169 @@
     margin: 0;
     padding: 0;
 }
-
-header{
-    display: flex;
-    justify-content: space-between;
-    background-color: #2E323F;
-    padding: 14px;
-    align-items: center;
+img{
+    max-width: 100%;
 }
-ul{
-    display: flex;
-    list-style-type: none;
-    margin-right: 32px;
-}
-li{
-    padding: 10px;
-    color: white;
-    text-transform: uppercase;
-    font-family: "Oswald", sans-serif;
-    font-size: 1.125rem;
-}
-.sign > button{
-    font-size: 1.12rem;
-    font-family: "Oswald", sans-serif;
-    border-radius: 15px;
-    padding: 2px 17px;
-    background-color: #A59678;
-}
-.sign a{
-    /* font-size: 1.12rem;
-    font-family: "Oswald", sans-serif; */
-    text-decoration: none;
-    text-decoration-color: nonw;
-    color: inherit;
-}
-
-main{
+.flex{
     width: 100%;
-}
-
-.hero{
+    max-width: 1200px;
+    background-color: #2E323F;
     display: flex;
-    align-items: center;
-    padding: 40px;
-    background-color: #3B4050;
-    padding-bottom: 126px;
-}
-h1{
-    font-family: "Oswald", sans-serif; 
-    font-size: 5.625rem;
-    color: white;
-}
-
-.gold{
-    color: #A59678;
-}
-p{
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.5rem;
-}
-.title{
-    line-height: 86px;
-    margin: 24px;
-}
-
-.pass{
-    margin: 10px;
-    
-}
-
-.pass > button{
-    font-size: 1.12rem;
-    font-family: "Oswald", sans-serif;
-    border-radius: 15px;
-    padding: 2px 17px;
-    background-color: #A59678;
-    border-color: transparent;
-    margin-top: 22px;
-}
-.pass>button>a{
-    text-decoration: none;
-    text-decoration-color: none ;
-    color: white;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-}
-
-
-.sectwo{
-    display: flex;
-    margin: 141px 54px;
-    text-align: center;
     justify-content: center;
     align-items: center;
 }
-
-h2{
+header>div{
+    margin: 10px;
+}
+.hero{
+    width: 100%;
+    max-width: 1200px;
+    background-color: #3B4050;
+    min-height: 600px;
+}
+h1{
+    color: white;
     font-family: "Oswald", sans-serif;
-    font-size: 1.875rem;
+    font-weight: bold;
+    font-size: 2.625rem;
+    padding: 18px;
+    
+}
+.gold{
     color: #A59678;
 }
 
-.one p{
+.pass>p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    margin: 18px;
+
+}
+.pass button{
+    margin: 18px;
+    border-radius: 28px;
+    padding: 18px;
+    /* color: white; */
+    background-color: #A59678;
+}
+.pass button a{
+    color: white;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-size:1.5rem ;
+}
+.sectwo{
+    background-color: white;
+    justify-items: center;
+    margin: 30px 20px;
+}
+.sectwo div{
+    margin-top: 10px;
+}
+.sectwo h2{
+    font-family: "Oswald", sans-serif;
+    font-size: 1.875rem;
+}
+.sectwo p{
     font-family: "Montserrat", sans-serif;
     font-size: 1.125rem;
 }
-
-.secthree{
-    display: flex;
-    margin: 141px 54px;
-    /* justify-content: center;
-    align-items: center; */
-}
-img{
-    min-width: 100%;
-}
-.two-1{
-    margin-right: 77px;
-}
-
-.two-1 h2{
+.secthree h2{
+    margin: 10px;
     font-family: "Oswald", sans-serif;
     font-size: 2.25rem;
-    color: #A59678;
 }
-.two-1 p{
+.secthree p{
     font-family: "Montserrat", sans-serif;
     font-size: 1.313rem;
 }
-
-.two-2{
-    text-align: center;
+.secthree-two h2{
     color: white;
-}
-
-.two-2 h2{
     font-family: "Oswald", sans-serif;
     font-size: 1.875rem;
-    color: white;
-}
-.two-2 p{
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.125rem;
-}
-.two-2-1{
-    margin-bottom: 32px;
-    padding: 22px;
-    background-color:#2E323F;
-}
-footer {
-    background-color: #3a3a4f;
-    color: #fff;
-    padding: 40px 20px;
-    /* display: flex; */
-    justify-content: space-between;
-    align-items: start;
-}
-.flex{
-    display: flex;
-}
-
-
-footer div {
-    flex: 1;
-    padding: 0 15px;
-}
-
-footer h2 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: white;
     text-align: center;
 }
-
-h3 {
-    color: #b9a86c;
-    font-weight: 600;
-    margin-bottom: 15px;
+.secthree-two p{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 1.125rem;
+    text-align: center;
+}
+.secthree-two div{
+    background-color: #3B4050;
+    padding: 10px;
+}
+.display{
+    visibility: hidden;
+}
+footer{
+    justify-items: center;
+    padding: 20px;
 }
 
-p {
-    font-size: 0.9rem;
-    line-height: 1.6;
+footer h2{
+    color: white;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5rem;
+    margin: 15px;
 }
-
-.foot {
+footer div p{
+    font-family: "Montserrat", sans-serif;
+    font-size:1rem ;
+    color: white;
+}
+footer h3{
+    font-family: "Oswald", sans-serif;
+    font-size: 1.313rem;
+}
+footer ul{
     list-style-type: none;
-    padding: 0;
-    flex-direction: column;
+    color: white;
+    /* justify-items: center; */
+}
+footer div{
+    margin: 20px;
+}
+footer ul li {
+    margin: 15px;
 }
 
-.foot li {
-    margin: 8px 0;
+@media(min-width:600px){
+    .secthree-two{
+        display: flex;
+    }
+    .secthree-two div{
+        margin: 10px;
+    }
+    .two{
+        display: flex;
+        margin: 30px 20px;
+        text-align: center;
+    }
 }
 
-.foot li a {
-    color: #ccc;
-    text-decoration: none;
-}
-
-.foot li a:hover {
-    color: #fff;
+@media(min-width:1000px){
+    .flex-hero{
+        display: flex;
+    }
+    .flex-hero h1{
+        font-size: 5.625rem;
+        line-height: 78px;
+    }
+    .secthree{
+        display: flex;
+    }
+    .secthree-two {
+        display: block;
+    }
+    .foot{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .width{
+        width: 45%;
+    }
 }
